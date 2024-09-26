@@ -4,6 +4,11 @@ Página HTML para assinatura de uma newsletter, estilizada utilizando o Tailwind
 
 A página se encontra no arquivo `index.html`. Os outros arquivos HTML são baseados em uma introdução ao Tailwind e o desafio proposto em aula.
 
+Segue abaixo um gif mostrando a página em diferentes tamanhos de tela, incluindo uma animação ao passar o mouse pelo ícone de sininho, e também efeitos nos elementos de input de texto e botão.
+
+![gif da página estilizada com Tailwind](https://github.com/user-attachments/assets/67891dd9-8252-46e3-8671-0bcab46e20a1)
+
+
 ## Créditos
 
 O projeto foi desenvolvido durante o curso [Tailwind CSS: estilizando a sua página com classes utilitárias](https://cursos.alura.com.br/course/tailwind-css-estilizando-pagina-classes-utilitarias), ministrado pela [Beatriz Moura](https://www.linkedin.com/in/beatrizmouradev/). 
