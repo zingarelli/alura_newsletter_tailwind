@@ -2,7 +2,7 @@
 
 Página HTML para assinatura de uma newsletter, estilizada utilizando o Tailwind CSS.
 
-A página se encontra no arquivo `newsletter.html`. O arquivo `index.html` foi utilizado somente para introdução ao Tailwind.
+A página se encontra no arquivo `index.html`. Os outros arquivos HTML são baseados em uma introdução ao Tailwind e o desafio proposto em aula.
 
 ## Créditos
 
