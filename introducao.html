@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // customizando o Tailwind
+        tailwind.config = {
+            theme: {
+                // o extends preserva os valores default 
+                // do Tailwind permite criar novos
+                extend: {
+                    // nova cor
+                    colors: {
+                        azul: '#061E3C'
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Olá Tailwind!</title>
+</head>
+
+<!-- aplica um linear-gradient, começando com uma cor roxa -->
+<!-- e indo para uma cor azul -->
+<body class="bg-gradient-to-r from-purple-400 to-blue-600">
+
+    <!-- aplica um background-color branco, usa flexbox -->
+    <!-- com elementos posicionados em coluna, alinhados -->
+    <!-- e justificados no centro. Em telas maiores, os  -->
+    <!-- elementos são posicionados em linha. -->
+    <!-- Largura de 80%, margem horizontal auto e vertical -->
+    <!-- de 160px (10 rem), padding 48px (3 rem). -->
+    <!-- box-shadow predefinido pelo tailwind -->
+    <!-- opacity de 50% -->
+    <main
+        class="bg-white flex flex-col justify-center items-center lg:flex-row w-4/5 mx-auto my-40 p-12 shadow-2xl opacity-50">
+        
+        <!-- largura de 40% (ou 10% para telas maiores) -->
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+
+        <!-- fonte 36px (ou 60 para telas maiores) -->
+        <!-- font-weight 900 e texto centralizado -->
+        <!-- cor customizada em tailwind.config -->
+        <h1 class="text-4xl lg:text-6xl font-black text-center text-azul">Olá Tailwind CSS!</h1>
+
+        <!-- largura de 40% (ou 10% para telas maiores) -->
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+    </main>
+
+</body>
+
+</html>
